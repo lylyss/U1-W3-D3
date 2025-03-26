@@ -23,6 +23,7 @@ input {
 }
 
 button {
+  cursor: pointer;
   padding: 10px;
   background-color: #b565eb;
   border: none;
@@ -38,13 +39,17 @@ li {
   background: #f9f9f9;
   padding: 10px;
   margin: 5px 0;
+  cursor: pointer;
 }
 
 li.completo {
-  color: rgb(197, 59, 167);
+  color: rgb(12, 13, 100);
+  cursor: pointer;
+  text-decoration-line: line-through;
 }
 
 .delete-btn {
+  cursor: pointer;
   background-color: #dc3545;
   border: none;
   color: white;
