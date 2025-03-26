@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     listItem.textContent = taskText;
 
     const deleteButton = document.createElement("button");
-    deleteButton.textContent = "X";
+    deleteButton.textContent = "-X-";
     deleteButton.classList.add("delete-btn");
 
     listItem.appendChild(deleteButton);
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     deleteButton.addEventListener("click", (e) => {
       e.stopPropagation();
-      taskList.removeChild(listItem);
+      Lista.removeChild(listItem);
     });
   });
 });
