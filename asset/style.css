@@ -1,0 +1,52 @@
+body {
+  background-image: url(imagini/bloccocapo.jpg);
+  background-repeat: repeat;
+  margin: 0;
+  padding: 190px 250px;
+  font-family: Arial, sans-serif;
+  height: 1000px;
+  text-align: center;
+}
+
+.container {
+  background: rgb(176, 239, 241);
+  padding: 20px;
+  border-radius: 25px;
+  width: 400px;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #e64ae6;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #b565eb;
+  border: none;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  justify-content: space-between;
+  background: #f9f9f9;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+li.completo {
+  color: rgb(197, 59, 167);
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 10px;
+}
